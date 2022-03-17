@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        title 게시글 작성
+    body
+        h1 이름 및 반 정보추가
+        div
+            input#name(type="text", placeholder="이름")
+            //- br
+            //- input#id(type="text", placeholder="번호")
+            br
+            br
+            form(method="post")
+                select#class(name="folder" )
+                    option(value="select") 수업 반을 선택해주세요
+                    option(value="숲1") 숲1
+                    option(value="숲2") 숲2
+                    option(value="숲3") 숲3
+                    option(value="숲4") 숲4
+            br
+            form(method="post")
+                select#car(name="folder" )
+                    option(value="select") 차량 반을 선택해주세요
+                    option(value="자연1") 자연4
+                    option(value="자연2") 자연3
+                    option(value="자연3") 자연2
+                    option(value="자연4") 자연1
+            //- img(src="/images/hi.jpg" width = "100")
+            br
+        div
+            a#write(href="#") 작성
+            br
+            a(href="/board") 돌아가기
+    script(src="https://unpkg.com/axios/dist/axios.min.js")
+    script(src="/javascripts/post.js")

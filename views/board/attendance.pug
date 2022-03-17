@@ -1,0 +1,39 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        title 게시글 작성
+    body
+        h1 출결확인
+        form(method="post")
+        table
+            each i,index in name 
+                tr
+                    td= index+1
+                    td= i.name
+                    td= i.class 
+                    td= i.car
+                    td#hi(width="150")
+                        select(name="test" class="hi")
+                            option(value="select") 출결여부를 선택해주세요
+                            option(value="출석") 출석
+                            option(value="결석") 결석
+
+        input#count(type="hidden" value=count)
+        
+        br
+        br
+        a#write(href="#") 작성
+        br
+        br
+        a(href="/board") 돌아가기
+        script(src="https://unpkg.com/axios/dist/axios.min.js")
+        script(src="/javascripts/post_attend.js")
+
+
+            //- h1= i.id
+            //- h1= i.name
+            //- h1= i.class
+            //- h1= i.car 
+            
+        

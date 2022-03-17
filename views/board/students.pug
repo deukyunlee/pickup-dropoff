@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        title 게시글 작성
+    body
+        h1 학생이름 및 반 조회
+        table
+            tr 
+                th 번호
+                th 이름
+                th 수업 반 
+                th 차량 반
+                
+            each i,index in name 
+                tr
+                    td= p= index+1
+                    td= i.name
+                    td= i.class 
+                    td= i.car
+
+            //- h1= i.id
+            //- h1= i.name
+            //- h1= i.class
+            //- h1= i.car 
+            
+        
