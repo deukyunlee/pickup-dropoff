@@ -7,8 +7,15 @@ html
         h1 출결확인
         form(method="post")
         table
+            tr 
+                th 번호
+                th 이름
+                th 수업 반
+                th 차량 반
+                th 출결 여부
             each i,index in name 
                 tr
+                    input(type="hidden" class="name" value=i.name)
                     td= index+1
                     td= i.name
                     td= i.class 
@@ -20,10 +27,10 @@ html
                             option(value="결석") 결석
 
         input#count(type="hidden" value=count)
-        
+
         br
         br
-        a#write(href="#") 작성
+        a#write(href="#") 입력
         br
         br
         a(href="/board") 돌아가기

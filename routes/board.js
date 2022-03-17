@@ -82,7 +82,7 @@ router.post("/form", function (req, res, next) {
   //   console.log(form[i].select);
   // }
   for (i = 0; i < form[0].count; i++) {
-    console.log(form[i].select);
+    console.log(form[i].name, form[i].select);
   }
   // console.log(form.count);
 });

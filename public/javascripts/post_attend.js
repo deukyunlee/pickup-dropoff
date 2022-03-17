@@ -16,11 +16,12 @@ const main = {
     post = Array();
 
     count = parseInt(count);
-    alert(typeof count);
+
     for (i = 0; i < count; i++)
       post[i] = {
         select: document.getElementsByClassName("hi")[i].value,
         count: document.getElementById("count").value,
+        name: document.getElementsByClassName("name")[i].value,
       };
     axios.post("/board/form", post).then(function (result) {
       if (result.data) {
