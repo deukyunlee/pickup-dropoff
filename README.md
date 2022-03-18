@@ -26,4 +26,5 @@
 
 ## 날짜를 선택하면 그 날에 해당하는 출결정보가 출력됩니다.
 
-<img width="1271" alt="스크린샷 2022-03-18 오전 10 39 00" src="https://user-images.githubusercontent.com/87864058/158921231-32adaf18-428f-4492-8038-bf82e5876caa.png">
+<img width="1268" alt="스크린샷 2022-03-18 오전 10 46 29" src="https://user-images.githubusercontent.com/87864058/158921769-6b400f2f-c085-43cb-8ad4-bf6177245074.png">
+
