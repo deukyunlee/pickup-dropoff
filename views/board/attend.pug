@@ -1,0 +1,82 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        title 게시글 작성
+    body
+        div#table1
+            table
+                caption 숲1
+                
+                tr 
+                    th 이름
+                    th 차량 반
+                    th 출결여부
+                    
+                each i,index in class1 
+                    tr
+                        td= i.name 
+                        td= i.car
+                        if i.attend=="결석"
+                            td(style= "color:red")= i.attend
+                        else
+                            td(style= "color:blue")= i.attend
+        div#table2
+            table
+                caption 숲2
+                
+                tr 
+                    th 이름
+                    th 차량 반
+                    th 출결여부
+                    
+                each i,index in class2 
+                    tr
+                        td= i.name 
+                        td= i.car
+                        if i.attend=="결석"
+                            td(style= "color:red")= i.attend
+                        else
+                            td(style= "color:blue")= i.attend
+        div#table3
+            table
+                caption 숲3
+                
+                tr 
+                    th 이름
+                    th 차량 반
+                    th 출결여부
+                    
+                each i,index in class3
+                    tr
+                        td= i.name 
+                        td= i.car
+                        if i.attend=="결석"
+                            td(style= "color:red")= i.attend
+                        else
+                            td(style= "color:blue")= i.attend
+                            
+        div#table4
+            table
+                caption 숲4
+                
+                tr 
+                    th 이름
+                    th 차량 반
+                    th 출결여부
+                    
+                each i,index in class4
+                    tr
+                        td= i.name 
+                        td= i.car
+                        if i.attend=="결석"
+                            td(style= "color:red")= i.attend
+                        else
+                            td(style= "color:blue")= i.attend
+
+            //- h1= i.id
+            //- h1= i.name
+            //- h1= i.class
+            //- h1= i.car 
+            
+        

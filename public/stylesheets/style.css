@@ -6,7 +6,25 @@ body {
 a {
   color: #00b7ff;
 }
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+#table1,
+#table3 {
+  float: left;
+  width: 48%;
+}
 
+#table2,
+#table4 {
+  float: right;
+  width: 48%;
+}
+td,
+th {
+  padding: 3px;
+}
 table,
 th,
 td {
@@ -15,10 +33,42 @@ td {
   text-align: center;
 }
 
+table caption {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+th {
+  background-color: lightblue;
+}
+/* th {
+  background-color: #7ec314;
+  color: #fff;
+  border: 1px solid;
+} */
 ul {
   padding: 0;
 }
 li {
   display: inline-block;
   margin: 5px;
+}
+#attendtable {
+  width: 60%;
+}
+
+#first {
+  background-color: aqua;
+}
+
+#second {
+  background-color: lawngreen;
+}
+
+#third {
+  background-color: lightcoral;
+}
+
+#fourth {
+  background-color: lightgrey;
 }

@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        title 게시글 작성
+    body
+        each i,index in date 
+            a(href="get-attendance/"+`${i.date}`)= i.date
+            br
+
+        br
+        br
+        a(href="/board") 돌아가기
+        script(src="https://unpkg.com/axios/dist/axios.min.js")
+        script(src="/javascripts/post_attend.js")
+
+
+            //- h1= i.id
+            //- h1= i.name
+            //- h1= i.class
+            //- h1= i.car 
+            
+        

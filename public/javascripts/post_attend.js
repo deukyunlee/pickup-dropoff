@@ -23,7 +23,7 @@ const main = {
         count: document.getElementById("count").value,
         name: document.getElementsByClassName("name")[i].value,
       };
-    axios.post("/board/form", post).then(function (result) {
+    axios.post("/board/post-attendance", post).then(function (result) {
       if (result.data) {
         location.href = "/board";
       } else {

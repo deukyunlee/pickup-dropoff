@@ -4,9 +4,10 @@ html
         link(rel='stylesheet', href='/stylesheets/style.css')
         title 게시글 작성
     body
-        h1 출결확인
+        
         form(method="post")
-        table
+        table#attendtable
+            caption= "출결확인"
             tr 
                 th 번호
                 th 이름
