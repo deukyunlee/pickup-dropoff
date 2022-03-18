@@ -6,9 +6,12 @@
 
 (사진은 프로젝트 완성 시 추가예정)
 
+<img width="303" alt="스크린샷 2022-03-18 오전 10 59 47" src="https://user-images.githubusercontent.com/87864058/158923064-c5f9ea9d-971b-4c3c-a196-f11d588570e1.png">
+
 ## 이름과 수업 분반, 차량 분반을 선택하면 DB에 정보가 입력됩니다.
 
-![스크린샷 2022-03-17 오후 10 37 53](https://user-images.githubusercontent.com/87864058/158821094-05106f1b-3b13-4dbb-953b-37cc035c4630.png)
+<img width="270" alt="스크린샷 2022-03-18 오전 10 59 52" src="https://user-images.githubusercontent.com/87864058/158923069-68a385ee-79ef-4df0-a4ac-9c1bf1f5a3ee.png">
+
 
 ## DB로부터 학생이름 및 반 조회
 
